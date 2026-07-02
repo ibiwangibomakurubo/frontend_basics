@@ -1,0 +1,7 @@
+/* Targeting Elements by Tag Name */
+span[class]{
+    color: purple;
+}
+div[id]{
+    background-color: lightgray;
+}
