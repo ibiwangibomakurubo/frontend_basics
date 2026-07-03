@@ -1,7 +1,10 @@
 /* Targeting Elements by Tag Name */
-span[class]{
-    color: purple;
+li:nth-child(1), li:nth-child(7){
+    font-weight: bold;
 }
-div[id]{
-    background-color: lightgray;
+li:nth-child(even){
+    background-color: #f2f2f2;
+}
+li:nth-child(even){
+    background-color: pink;
 }
