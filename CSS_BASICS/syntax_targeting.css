@@ -1,4 +1,7 @@
 /* Targeting Elements by Tag Name */
-article:nth-of-type(2n + 1){
-    background-color: pink;
+article.featured-content{
+    background-color:blue;
+}
+div.featured-content{
+    background-color:green;
 }
