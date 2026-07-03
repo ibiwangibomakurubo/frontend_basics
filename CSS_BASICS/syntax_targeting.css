@@ -1,5 +1,5 @@
 /* Targeting Elements by Tag Name */
 p{
     font-size: 12px;
-    letter-spacing: 10px;
+    word-spacing:  1.5em;
 }
