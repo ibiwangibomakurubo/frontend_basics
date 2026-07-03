@@ -1,8 +1,7 @@
 /* Targeting Elements by Tag Name */
 .box{
-    margin: 30px;
+    margin: 30px 15px 20px;
     padding: 30px;
-    border: 1px solid #eee;
-    width: 200px; 
-   
+    border: 1px solid #000; 
+    width: 300px; 
 }
