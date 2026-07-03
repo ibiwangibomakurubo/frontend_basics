@@ -1,7 +1,4 @@
 /* Targeting Elements by Tag Name */
-article.featured-content{
-    background-color:blue;
-}
-div.featured-content{
-    background-color:green;
+body{
+    color: purple;
 }
