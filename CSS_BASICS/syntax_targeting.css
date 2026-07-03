@@ -1,6 +1,10 @@
 /* Targeting Elements by Tag Name */
 .box{
-    margin: 30px;
-    padding: 30px 20px;
-    border: 1px solid #000;  
+    border: 2px solid blue;
+    padding: 10px;  
+}
+
+.small{
+    border: 2px solid red;
+    padding: 10px;
 }
