@@ -1,10 +1,4 @@
 /* Targeting Elements by Tag Name */
-li:nth-child(1), li:nth-child(7){
-    font-weight: bold;
-}
-li:nth-child(even){
-    background-color: #f2f2f2;
-}
-li:nth-child(even){
+article:nth-of-type(2n + 1){
     background-color: pink;
 }
