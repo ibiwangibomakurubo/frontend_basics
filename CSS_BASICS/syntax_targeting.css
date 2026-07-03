@@ -1,10 +1,8 @@
 /* Targeting Elements by Tag Name */
-article{
-    font-size: 16px;
+h1{
+    font-weight: normal;
 }
-article h2{
-    font-size: 4em;
-}
-article p{
-    font-size: 500%;
+p{
+    font-weight: 100;
+    font-family: Yu Gothic;
 }
