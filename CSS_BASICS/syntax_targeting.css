@@ -1,6 +1,8 @@
 /* Targeting Elements by Tag Name */
-p{
-    font-size: 14px;
-    word-spacing: 0.2em;
-    margin-bottom: 32px;
+.box{
+    margin: 30px;
+    padding: 30px;
+    border: 1px solid #eee;
+    width: 200px; 
+   
 }
