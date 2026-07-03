@@ -1,11 +1,5 @@
 /* Targeting Elements by Tag Name */
-a{
-    color: crimson;
-    text-decoration: none;
-    font-weight: bold;
-}
-a:hover{
-    color: darkmagenta;
-    text-decoration: underline;
-    background-color: seagreen;
+p{
+    font-size: 12px;
+    letter-spacing: 10px;
 }
