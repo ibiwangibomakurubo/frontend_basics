@@ -5,32 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS for Targeting Elements</title>
     <link rel="stylesheet" href="syntax_targeting.css">
-    
-    <style>
-        body{
-            background-color: #eee;
-        }
-
-        #main-content{
-            background-color: #fff;
-            width: 80%;
-            margin: 0 auto;
-            height: 100%;
-            padding: 2%;
-            position: relative;
-            min-height: 700px;
-        }
-
-    </style>
-</head>
+</head> 
 <body>
 
-    <div id="main-content">
-        
-        <a class="button">click me</a>
-        
+    <div id="wrapper">
+
+        <nav id="main-navigation">
+            <ul>
+                <li><a href="g" class="current">Bikes</a></li>
+                <li><a href="g">Best Buy</a></li>
+                <li><a href="g">Offers</a></li>
+                <li><a href="g">Accessories</a></li>
+                <li><a href="g">Contact</a></li>
+                <li><a href="g">About Us</a></li>
+            </ul>
+        </nav>
+        <div id="lead-banner">
+            <img src="images/lead-banner.jpg" alt="Bikes!">
+        </div>
+
+        <section id="shop">
+            <img class="product-image" src="images/bike.jpg"
+            alt="Retrosyperb image">
+            <h2 class="Product-name">Bicycle Retrosyperb vii #1</h2>
+            <span class="price">399.99$</span>
+            <a class="add-to-bag" href="#">Add to shopping basket</a>
+            <img class="rating" src="images/stars.png" alt="star-rating">
+        </section>
+
+        <div id="footer-banner">
+            <img src="images/footer.jpg" alt="pic of bike">
+        </div>
 
     </div>
-        
 </body>              
 </html>
